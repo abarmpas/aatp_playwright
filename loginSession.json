@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "devtools_ignore",
+      "value": "true",
+      "domain": "aatp.vercel.app",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://aatp.vercel.app",
+      "localStorage": [
+        {
+          "name": "cart",
+          "value": "[]"
+        }
+      ]
+    }
+  ]
+}

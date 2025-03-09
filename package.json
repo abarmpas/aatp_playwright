@@ -1,0 +1,17 @@
+{
+  "name": "aatp_playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pw:e2e": "playwright test",
+    "pw:e2e:debug": "npm run pw:e2e -- --debug --workers=1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.51.0",
+    "@types/node": "^22.13.10"
+  }
+}
